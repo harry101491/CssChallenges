@@ -1,0 +1,29 @@
+ul {
+  padding: 0;
+  margin: 5rem auto;
+  list-style-type: none;
+  border: 10px dotted #9b2226;
+  width: 900px;
+  height: 500px;
+  display: flex;
+/*   flex-direction: row;
+  flex-wrap: wrap; */
+  flex-flow: row wrap;
+  justify-content: center;
+/*   align-items: center; */
+  align-content: space-evenly;
+}
+
+li {
+  border: 2px solid #001219;
+  background-color: #ee9800;
+/*   min-width: 100px; */
+  height: 100px;
+  order: 1;
+  flex-basis: 15%;
+}
+
+.flex2 {
+  order: 2;
+  flex-basis: 20%;
+}
